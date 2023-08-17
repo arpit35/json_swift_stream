@@ -1,0 +1,17 @@
+// using pnpm package manager because 
+// (1) Saving disk space
+// (2) Boosting installation speed
+// (3) Creating a non-flat node_modules directory
+npm install -g pnpm
+
+// Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects
+pnpm create vite
+
+// This package contains type definitions for Node.js (https://nodejs.org/).
+pnpm i --save-dev @types/node
+
+// VSCode - ESLint, Prettier & Airbnb Setup
+https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4
+
+// npx alternative for pnpm
+pnpm dlx
