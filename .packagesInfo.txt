@@ -1,3 +1,6 @@
+// npx alternative for pnpm
+pnpm dlx
+
 // using pnpm package manager because 
 // (1) Saving disk space
 // (2) Boosting installation speed
@@ -10,8 +13,17 @@ pnpm create vite
 // This package contains type definitions for Node.js (https://nodejs.org/).
 pnpm i --save-dev @types/node
 
-// VSCode - ESLint, Prettier & Airbnb Setup
-https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4
+// installing eslint as dev dependancy
+pnpm i -D eslint
 
-// npx alternative for pnpm
-pnpm dlx
+// setup eslint pre configuration
+pnpm dlx eslint --init
+
+// install eslint-config-airbnb with all its correct dependancy
+https://www.npmjs.com/package/eslint-config-airbnb?activeTab=readme
+
+// Enhances Airbnb's ESLint config with TypeScript support 
+https://www.npmjs.com/package/eslint-config-airbnb-typescript
+
+// install prettier and config it to run properly with eslint
+pnpm i -D prettier eslint-config-prettier eslint-plugin-prettier
