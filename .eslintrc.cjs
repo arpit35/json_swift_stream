@@ -30,12 +30,6 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error'],
     'react/react-in-jsx-scope': 0,
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: ['./vite.config.ts'],
-      },
-    ],
     'react/function-component-definition': [
       2,
       {
