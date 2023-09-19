@@ -20,12 +20,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "**.cjs", "**.ts", "**.json"],
+  "include": ["src", "**.cjs", "**.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json",
       "@components": "./src/components",
-      "@containers": "./src/containers"
+      "@containers": "./src/containers",
+      "@assets": "./src/assets"
     }
   ]
 }
